@@ -1,0 +1,182 @@
+.m-10{
+    margin: 30px 0 ;
+}
+
+.place{
+    text-align: start;
+    margin: 10px 30px;
+
+}
+
+.grid-container{
+    display: grid;
+    height: 300px;
+    /* background-color: red; */
+    border-radius: 20px;
+    overflow: hidden;
+    /* padding: 0; */
+    gap: 5px;
+}
+
+
+
+
+/* .address-con{
+    margin:10px 0;
+} */
+
+
+.item-1{
+    grid-area: img1;
+}
+
+.item-1 img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.item-2{
+    grid-area: img2;
+}
+.item-3{
+    grid-area: img3;
+}
+
+.item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;   
+}
+.item-4{
+    grid-area: img4;
+}
+.item-5{
+    grid-area: img5;
+}
+
+
+.grid-container {
+    grid-template-areas: 
+    'img1 img1 img2 img3'
+    'img1 img1 img4 img5';
+}
+
+.address-con{
+    margin:10px 0;
+}
+.address-con p,h3 {
+    margin: 5px 0 ;
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.con-1{
+    flex:2;
+}
+
+.revervation-con{
+    flex:0.6;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.date-con{
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.date-con p {
+    /* background-color: red; */
+    margin-top: 5px;
+    /* padding: 10px 0; */
+}
+.date-con__first{
+    flex: 1;
+    padding: 5px;
+    border-right: 1px solid gray;
+}
+
+.date-con__second{
+    flex: 1;
+    padding: 5px;
+}
+
+input[type=date]{
+    border: none;
+    font-size: 10px;
+    padding: 0px;
+    /* display: none; */
+}
+
+input[type=date]:focus{
+    border: none;
+    /* background-color: red; */
+    outline: none;
+    font-size: 10px;
+    padding: 0px;
+
+}
+
+.tp-container{
+    margin-top: 10px;
+    color: gray;
+    font-size: 12px;
+}
+
+.revervation-con button{
+    border: none;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #FF385C;
+    color: white;
+    padding: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.owner-con{
+    padding:10px 0 ;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin:20px 0;
+    /* color: gray; */
+}
+
+
+
+.perks-con svg{
+    height: 20px;
+}
+
+.perks-con p{
+    display: flex;
+    gap: 5px;
+    margin:10px 0 ;
+    align-items: center;
+}
+
+
+
+.include{
+    color: rgba(0, 0, 0, 0.794);
+}
+
+.not-include{
+    color: rgba(0, 0, 0, 0.794);
+    text-decoration: line-through;
+}
+

@@ -1,0 +1,74 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1r;
+    gap: 10px;
+    margin: 30px;
+}
+
+
+@media screen and (min-width:600px) and  (max-width:900px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and  (min-width:901px) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+.grid-item{
+    text-align: start;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.grid-item__img{
+   border-radius: 20px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+
+    /* padding: 0 10px; */
+
+}
+
+.booking-con__btns{
+    width: 100%;
+    /* margin: auto; */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 35%;
+    /* padding: 0 5px; */
+}
+
+.booking-con__btns button{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.446);
+    border: none;
+    margin: 0 5px;
+}
+
+.booking-con__btns button:hover{
+    background-color: white;
+}
+
+.grid-item__address{
+    margin: 0;
+}
+
+.grid-item__title{
+    color: gray;
+    margin: 5px 0;
+}
+
+.grid-item__price{
+    margin: 0;
+}

@@ -1,0 +1,56 @@
+.places-con{
+    margin: 20px;
+}
+
+.btn-con{
+    text-align: end;
+}
+
+.btn-con button{
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #FF385C;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.place{
+    display: flex;   
+    /* justify-content: start; */
+    /* align-items: start; */
+    gap: 5px;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.place-img{
+    flex: 1;
+}
+
+.place-img img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.place-content{
+    /* background-color: green; */
+    flex: 3;
+    display: flex;
+    align-items: start;
+    text-align: start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.place-content h3,p{
+    margin: 0;
+}
+
+
+

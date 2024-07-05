@@ -1,0 +1,38 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+
+}
+
+.active{
+    background-color: #FF385C;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.not-active{
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: white;
+}
